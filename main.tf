@@ -56,7 +56,7 @@ resource "azuread_group" "aks_aad_clusteradmins" {
 
 # Get the CLOUD_G2S_ADMIN_DATALAB group
 data "azuread_group" "cloud_admin" {
-  object_id        = "f1ccbb49-fb4d-49c3-81a1-a578b06f9586"
+  object_id        = "a9bfed87-ab1a-4666-bd14-e7ff7d19b6d5"
   security_enabled = true
 }
 
